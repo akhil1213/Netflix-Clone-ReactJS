@@ -8,13 +8,30 @@
 }
 .banner__contents {
   margin-left: 30px;
+  padding-top:140px;
+  height:190px;
+  
 }
 .banner__title {
   font-size: 3rem;
   font-weight: 800;
   padding-bottom: 0.3rem;
 }
-.banner_button {
+.banner__button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: .2vw;
+  margin-right: 1rem;
+  background-color: rgba(51,51,51,.5);
+  padding: .5rem 2rem;
+}
+.banner__button:hover{
+  color: #000;
+  background-color: #e6e6e6;
+  /* transition: all .2s; */
 }
 
 .banner__description {
@@ -26,4 +43,8 @@
   display: -webkit-box;
   -webkit-line-clamp: 3; /* number of lines to show */
   -webkit-box-orient: vertical;
+}
+.banner--fadeBottom{
+  height:7.4rem;
+  background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.50), #111);
 }

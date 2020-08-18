@@ -25,7 +25,7 @@ function Banner() {
       style={{
         backgroundSize: "cover",
         backgroundImage: `url('${base_url}${movie?.backdrop_path}')`, //optional chaining: no need to check if movie is undefined '?' saw this neat trick on stackoverflow
-        // backgroundPosition: "center center",
+        backgroundPosition: "center center",
       }}
     >
       <div className="banner__contents">
@@ -39,6 +39,7 @@ function Banner() {
         </div>
         <p className="banner__description">{movie?.overview}</p>
       </div>
+      <div className="banner--fadeBottom"/>
     </header>
   );
 }
