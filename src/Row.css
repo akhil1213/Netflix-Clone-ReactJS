@@ -2,6 +2,9 @@
   margin-left: 20px;
   color: white;
 }
+.scrollContainer {
+  width: 50%;
+}
 .row__posters {
   display: flex;
   overflow-x: scroll;
