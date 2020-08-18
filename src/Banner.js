@@ -18,7 +18,6 @@ function Banner() {
     fetchMovie();
   }, []);
   console.log(movie);
-
   return (
     <header
       className="banner"
@@ -39,7 +38,7 @@ function Banner() {
         </div>
         <p className="banner__description">{movie?.overview}</p>
       </div>
-      <div className="banner--fadeBottom"/>
+      <div className="banner--fadeBottom" />
     </header>
   );
 }
